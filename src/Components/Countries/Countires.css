@@ -1,0 +1,12 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+
+.flag-design img {
+    width: 120px;
+    height: 90px;
+    margin: 10px ;
+    
+}

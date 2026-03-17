@@ -25,7 +25,6 @@ const Countires = ({countriesPromise}) => {
         <div>
           <h1>Total Countires {Countires.length}</h1>
           <p>Total Visited Countries {visitedCountires.length}</p>
-          <p>Total flasg{visitedFlags.length} </p>
           <ol>
             {visitedCountires.map(conrt  => <li key={conrt.cca3.cca3}>  {conrt.name.common}</li>)}
           </ol>
